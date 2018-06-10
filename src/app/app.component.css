@@ -1,0 +1,25 @@
+.blackBorder {
+  border: solid 1px #000;
+  min-height: 100px;
+}
+.main {
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+.top {
+  margin-bottom: 50px;
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+.top span {
+  padding: 15px;
+  vertical-align: middle;
+}
+
+.bottom {
+  text-align: center;
+  min-height: 50px;
+}

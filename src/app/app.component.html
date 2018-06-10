@@ -1,0 +1,11 @@
+<div class="blackBorder main">
+  <div class="top">
+    <app-get-clock-time [clock]="clock"></app-get-clock-time>
+  </div>
+  <div class="bottom">
+    <app-feature [firstAction]="firstAction" [secondAction]="secondAction"
+               (clickFirstAction)="onClickFirstAction()" (clickSecAction)="onClickSecAction()"></app-feature>
+    <div class="left"><button  class="btn btn-success" (click)="onClickNext()">Next</button></div>
+  </div>
+</div>
+

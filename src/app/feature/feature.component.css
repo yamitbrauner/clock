@@ -1,0 +1,7 @@
+.left {
+  float: left;
+  width: 33%;
+}
+.vis-hidden{
+  visibility: hidden;
+}
